@@ -95,3 +95,9 @@ filter: grayscale(0);
 ******************************************/
 .passion{ color: #fff; display: inline-block; margin-right: 5px; margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #000; position: relative; font-size: 1.2em; border-radius: 10px; }
 .passion .glyphicon { font-size: 0.7em; }
+
+
+#copyright{
+    margin: auto 50% auto 50%;
+    width: 200px;
+}
