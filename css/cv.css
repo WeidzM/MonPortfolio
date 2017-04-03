@@ -75,7 +75,8 @@ filter: grayscale(0);
 * Compétences
 ******************************************/
 #competences .container .libelle { float: left; font-size: 1.3em; }
-#competences .container .classement { float: right; background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat; width: 160px; height: 27px; left: 40%; position: absolute;}
+#competences .container {width: 80%;}
+#competences .container .classement { float: right; background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat; width: 160px; height: 27px;}
 #competences .container .classement0 { background-position: 0 -142px; }
 #competences .container .classement1 { background-position: 0 -112px; }
 #competences .container .classement2 { background-position: 0 -84px; }
@@ -84,13 +85,10 @@ filter: grayscale(0);
 #competences .container .classement5 { background-position: 0 0px; }
 
 #langues .langue, #langues .niveau{ font-size: 1.3em; float: left; }
-#langues .langue { padding-top: 3px; }
-#langues .niveau{ 
-    float: right; 
-    left: 25%;
-    position: absolute;
-
-}
+#langues .langue { padding-top: 3px;}
+#langues .container {width: 80%;}
+#langues .niveau {float: right;}
+#langues span {margin-left: 2px}
 
 /******************************************
 * Passions
